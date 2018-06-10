@@ -1,0 +1,15 @@
+{
+    "name":         "AppleSensors",
+    "version":      "0.1",
+    "description":  "An addon to work with Apple sensors.",
+    "author":       "Steve Dekorte",
+    "website":      "http://iolanguage.org/",
+    "readme":       "README.md",
+    "protos":       ["AppleSensors"],
+    "dependencies": {
+        "frameworks": ["CoreFoundation", "IOKit"],
+        "headers":  ["CoreFoundation/CoreFoundation.h", "IOKit/IOKitLib.h", "mach/mach.h"],
+        "protos":   [],
+        "packages": []
+    }
+}
